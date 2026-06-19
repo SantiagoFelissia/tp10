@@ -31,7 +31,7 @@ package Actividad;
 	        return contactos.get(nombre);
 	    }
 
-	    // Mostrar todos
+	    
 	    public void mostrarContactos() {
 	        for (Contacto c : contactos.values()) {
 	            System.out.println(c);
